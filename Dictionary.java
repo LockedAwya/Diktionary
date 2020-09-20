@@ -4,7 +4,7 @@ public class Dictionary {
 
     public Vector<String> wordList = new Vector(10, 10);
     public HashMap<String, Word> word = new HashMap<String, Word>();
-
+    //this funtion is responsible for adding words
     public void addWord(String target, String explain) {
         Word newWord = new Word(target, explain);
         wordList.addElement(target);
