@@ -4,6 +4,8 @@ public class DictionaryCommandLine {
     
     final int noSpace = 4;
     final int targetSpace = 25;
+    
+    //this function displays all the words
 
     public void showAllWords(Dictionary dictionary) {
         // Print header
